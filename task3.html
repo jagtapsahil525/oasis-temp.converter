@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Temprature converter</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Raleway&family=Roboto+Mono:wght@400;700&family=Sacramento&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <div class="title"><h1>Cel - Far converter</h1></div>
+    
+    <div class="main">
+      <div class="container">
+            <label for="celsius">Celsius</label>
+            <input type="number" id="celsius"
+            oninput="CeltoFar()">
+      </div>
+      <div class="container">
+        <label for="fahrenheit">Fahrenheit</label>
+        <input type="number" id="fahrenheit"
+        oninput="fartocel()">
+      </div>
+    </div>
+    <script src="script.js"> </script>
+  </body>
+</html>
